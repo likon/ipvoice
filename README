@@ -1,0 +1,8 @@
+
+1. 打算开发应用电脑和基于android手机的ip对讲，基本原理是voip；
+2. 可以参考sipdroid开源项目；
+3. 应该支持压缩算法，speex，GSM等等，以减少传输的带宽；
+4. java通过jni调用各种压缩算法，因为压缩算法都有时间的要求；
+5. 开发环境是android开发环境，和arm-linux-gcc编译speex和GSM库等的；
+6. 平台软件的开发环境是python，加上linux或者windows的语音驱动库，可以录音和播放音频即可。
+
